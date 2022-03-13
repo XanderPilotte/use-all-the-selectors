@@ -35,6 +35,11 @@ a {
   background-color: #719e07;
 }
 
+*, *::after, * {
+  box-sizing: content-box;
+  background-color: #2694d8;
+}
+
 ol:first-child {
   color: #719e47;
 }
@@ -50,6 +55,7 @@ li:nth-child(odd) {
 li:nth-child(even) {
   background-color: #586e75;
 }
+
 li:nth-child(3) {
   background-color: #d04b16;
 }
